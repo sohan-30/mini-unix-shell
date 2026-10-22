@@ -1,0 +1,31 @@
+# Binaries and object files
+myshell
+myshell_asan
+*.o
+*.so
+*.a
+
+# Test artifacts and temporary files
+test_redir_*.txt
+test_err_*.txt
+test_sort_*.txt
+output.txt*
+*.tmp
+
+# Coursework assignment documents and raw submissions
+*.pdf
+as1/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
